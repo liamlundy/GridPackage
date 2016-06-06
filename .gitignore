@@ -16,6 +16,12 @@
 **/.project
 **/bluej.pkg
 **/package.bluej
+**/.idea
+
+# Gradle and build stuff #
+##########################
+**/.gradle
+**/build
 
 # Packages #
 ############

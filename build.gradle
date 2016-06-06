@@ -1,0 +1,21 @@
+apply plugin: 'idea'
+apply plugin: 'java'
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.13'
+}
+
+jar {
+    from {
+        configurations.compile.collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+    }
+}
+
+dependencies {
+}
+
+repositories {
+    mavenCentral()
+}
