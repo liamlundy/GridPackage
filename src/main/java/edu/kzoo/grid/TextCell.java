@@ -79,6 +79,7 @@ public class TextCell extends GridObject
     }
 
     /** Gets text in this text cell.
+     * @return the test in the cell
      **/
     public String text()
     {
@@ -86,6 +87,7 @@ public class TextCell extends GridObject
     }
 
     /** Gets color of text.
+     * @return the color of the text
      **/
     public Color color()
     {

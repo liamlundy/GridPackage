@@ -71,6 +71,7 @@ public class PictureBlock extends GridObject
     }
 
     /** Gets picture associated with this picture block.
+     * @return the icon for the picture
      **/
     public ImageIcon pictureIcon()
     {

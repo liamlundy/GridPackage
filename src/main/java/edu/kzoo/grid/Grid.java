@@ -282,6 +282,7 @@ public abstract class Grid
      *   <code>obj.location()</code> are both <code>null</code>;
      *   <code>loc</code> is a valid empty location in this grid.)
      *  @param obj the new object to be added
+     *  @param loc the location in the grid wher ethe obj is to be added
      *  @throws    IllegalArgumentException if the precondition is not met
      **/
     public void add(GridObject obj, Location loc)
