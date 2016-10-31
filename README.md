@@ -1,4 +1,7 @@
 # GridPackage
+
+[![Build Status](https://travis-ci.org/liamlundy/GridPackage.svg?branch=master)](https://travis-ci.org/liamlundy/GridPackage)
+
 Framework for creating Java learning exercises based on 2-D grids.
 
 There are many introductory programming assignments that involve objects in a 
